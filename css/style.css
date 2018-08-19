@@ -1,0 +1,52 @@
+/* SGSPLUSS Casecaded Style Sheet - 2018 */
+/* Author: Ajmal Hussain Hy, https://ajmalhussain.in */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700'); /*Lato: font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700'); /*Montserrat: font-family: 'Montserrat', sans-serif; */
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Custom Bootstrap */
+.navbar{
+    width: 100vh;
+    text-align: center;
+    top: 1em;
+    border-radius: 30px;
+    padding-right: 3em;
+    padding-left: 3em;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Top Section */
+#top{
+    background: url(../img/bg.svg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #222;
+}
+
+.head-text-container{
+    top: 8em;
+}
+
+.brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    display: block;
+}
+
+.head-message{
+    font-size: 3em;
+    font-weight: 300;
+}
