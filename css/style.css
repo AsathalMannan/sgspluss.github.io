@@ -50,3 +50,22 @@ body{
     font-size: 3em;
     font-weight: 300;
 }
+
+/* footer */
+
+.author-picture{
+    height: 10em;
+    width: 10em;
+    background: url(../img/author.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.author-details{
+    vertical-align: top;
+}
+
+.author-details span{
+    display: block;
+}
