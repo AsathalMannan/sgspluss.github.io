@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <!-- Custom Style Sheet -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -15,7 +16,7 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom">
       <a class="navbar-brand font-weight-bold" href="#">sgspluss</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,9 +47,32 @@
     <section id="top">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 px-5 head-text-container">
+          <div class="col-sm-12 col-md-6 px-5 head-text-container">
             <span class="brand">SGSPLUSS</span>
-            <p class="head-message">My Goal is to make<br>Best <span class="font-weight-normal">Battery</span> Life<br>Best <span class="font-weight-normal">Performance</span><br>More <span class="font-weight-normal">Stable</span></p>
+            <p class="head-message">My Goal is to make<br>Better <span class="font-weight-normal">Battery</span> Life<br>Better <span class="font-weight-normal">Performance</span> &<br>More <span class="font-weight-normal">Stable</span></p>
+          </div>
+          <div class="col-sm-12 col-md-6 head-image-container">
+            <img src="/img/android-oreo.png" class="img-fluid d-none d-md-inline-block d-lg-inline-block d-xs-inline-block" alt="android oreo">
+            <div class="head-image-container-right d-inline-block">
+              <div class="d-block">
+                <span class="d-block font-weight-bold text-underline">Athene <small>(Moto G4 / G4 Plus)</small></span>
+                <span class="d-block"><a href="https://forum.xda-developers.com/moto-g4-plus/development/rom-unofficial-lineageos-14-1-t3782463">Lineage OS 14.1 (Unofficial)</a></span>
+                <span class="d-block"><a href="https://forum.xda-developers.com/moto-g4-plus/development/rom-unofficial-lineageos-15-1-t3775226">Lineage OS 15.1 (Unofficial)</a></span>
+              </div>
+              <div class="d-block">
+                <span class="d-block font-weight-bold text-underline">Eagle <small>(Sony Xperia M2)</small></span>
+                <span class="d-block"><a href="https://forum.xda-developers.com/xperia-m2/orig-development/rom-unofficial-lineageos-14-1-t3806876">Lineage OS 14.1 (Unofficial)</a></span>
+                <span class="d-block"><a href="https://forum.xda-developers.com/xperia-m2/orig-development/rom-unofficial-lineageos-15-1-t3805735">Lineage OS 15.1 (Unofficial)</a></span>
+                <span class="d-block"><a href="https://forum.xda-developers.com/xperia-m2/orig-development/rom-resurrection-remix-v5-8-5-t3811224">Resurrection Remix v5.8.5</a></span>
+                <span class="d-block"><a href="https://forum.xda-developers.com/xperia-m2/orig-development/rom-resurrection-remix-v6-1-0-t3810937">Resurrection Remix v6.1.0</a></span>
+                <span class="d-block"><a href="https://forum.xda-developers.com/xperia-m2/orig-development/recovery-team-win-recovery-project-t3807714">TWRP Recovery</a></span>
+              </div>
+              <div class="d-block">
+                <span class="d-block font-weight-bold text-underline">Miscellaneous</span>
+                <span class="d-block"><a href="https://basketbuild.com/devs/sgspluss/miscellaneous/gapps">sgspluss-gapps-8.1.0-arm</a></span>
+                <span class="d-block"><a href="https://forum.xda-developers.com/android/development/adblock-hosts-file-t3796662">adblock-hosts-file</a></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -56,9 +80,9 @@
     <section>
       <div class="container-fluid">
         <div class="row p-4">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="author-picture d-inline-block shadow-sm"></div>
-            <p class="author-details d-inline-block mx-4 mt-2">
+            <p class="author-details d-inline-block mx-2 mx-md-4 mx-lg-4 mx-xs-4 mt-2">
               <span class="brand">SGSPLUS</span>
               <span class=""><small>Patrick Kinder</small></span>
               <span class="mt-3">Germany</span>
@@ -66,8 +90,22 @@
               <span class=""><a href="#">Open My Profile</a></span>
             </p>
           </div>
-          <div class="col-md-6">
-            <p>If you Really loved my works, Donate with paypal</p>
+          <div class="col-md-4 credits mt-2">
+            <span>Thanks to,</span>
+            <span><i class="fas fa-check-circle mr-2"></i> Github</span>
+            <span><i class="fas fa-check-circle mr-2"></i> Lineage OS, Resurrection Remix, TWRP</span>
+            <span><i class="fas fa-check-circle mr-2"></i> Bootstrap for framework</span>
+            <span><i class="fas fa-check-circle mr-2"></i> Google Fonts for Web Fonts</span>
+            <span><i class="fas fa-check-circle mr-2"></i> FontAwesome for Icons</span>
+          </div>
+          <div class="col-md-4 donate text-left text-md-right text-lg-right text-xs-right mt-4">
+            <p>If you Really loved my works, <br><span class="font-weight-bold">Donate with paypal</span></p>
+            <a href="https://www.paypal.me/sgspluss"><img src="/img/paypal.png" alt="paypal logo"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center bg-light">
+            <small><span class="d-block d-md-inline-block d-lg-inline-block d-xs-inline-block mx-2">All the rights reserved, 2018.</span> Designed with <i class="fas fa-heart text-danger"></i> by <a href="https://ajmalhussain.in">Ajmal Hussain</a></small>
           </div>
         </div>
       </div>
